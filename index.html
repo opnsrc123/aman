@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <title>Portfolio</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700" rel="stylesheet">
+
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<!-- Navbar html, work on a:hover and shift text center -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project and Work</a></li>
+            <li><a href="#Contact">Contact</a></li
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- first page html -->
+
+<div class="container-fluid">
+<img src="./Images/portfolioimage1.jpg" alt="portfolio_image">
+  <div id="Home" class="zero">
+    <p>Aman Dwivedi</p>
+    <p style="font-size:20px;">Software Developer | Fresher</p>
+    <p style="font-size:20px;">Convert Caffeine to Code</p>
+  </div>
+</div>
+
+<!--about me page html -->
+
+<div id="about" class="first text-center">
+  <h1><img src="./Images/AVATAR.jpg" style="float:center; width:60px;"> ABOUT ME</h1>
+</div>
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">School</a></li>
+  <li><a data-toggle="tab" href="#menu1">College</a></li>
+  <li><a data-toggle="tab" href="#menu2">Interest</a></li>
+  <li><a data-toggle="tab" href="#menu3">Favorite Quotes</a></li>
+</ul>
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h2 style="text-decoration:underline;"><img src="./Images/school.png" style="float:center; width:60px;">CMS, Station Road | Lucknow</h2></br>
+      <p>Student from 2008-2013</p></br>
+      <p>High-School and Sr. Secondary School </p></br>
+      <p>Scored 89% in 10th and 88% in 12th</p></br>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+      <h2 style="text-decoration:underline;"><img src="./Images/grad.png" style="float:center; width:50px;">Galgotias University</h2></br>
+      <p>Student from 2014-2018</p></br>
+      <p>Pursued B.Tech in Computer Science </p></br>
+      <p>Participated in college tech events, organized TedX, Participated in ACM-ICPC</p></br>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h2 style="text-decoration:underline;"><img src="./Images/interest.png" style="float:center; width:60px;">Interest</h2></br>
+      <p>Read about start-ups and their success stories</p></br>
+      <p>Learning technology or at least being curious about it</p></br>
+      <p>Volunteering for social cause</p></br>
+      <p>Listening Psychedelic rock or Country pop songs</p></br>
+  </div>
+  <div id="menu3" class="tab-pane fade text-center">
+  </br>
+    <h2 style="text-decoration:underline;"><img src="./Images/quotes.png" style="float:center; width:60px;">Collection of Quotes which I've inspired me </h2>
+  </br></br>
+    <q>Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations - Steve Jobs</q>
+    </br>
+    </br>
+    <q> You can cut all the flowers but you cannot keep Spring from coming - Pablo Neruda</q>
+    </br>
+  </br>
+    <q>Success is a lousy teacher. It seduces smart people into thinking they can't lose - Bill Gates</q>
+  </div>
+</div>
+<hr>
+<!-- skills page html -->
+
+<div id="skills" class="container-fluid second text-center">
+  <h1><img src="./Images/skills.png" style="float:center; width:50px;">SKILLS</h>
+</div>
+  <div class="row">
+  <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 skillsimg">
+    <img src="./Images/frontend.jpg"></img>
+    <img src="./Images/c.png"></img>
+    <img src="./Images/python.png"></img></br>
+    <img src="./Images/sql.svg"></img>
+    <img src="./Images/nodejs.png"></img>
+      <img src="./Images/mongo.png"></img></br>
+          <img src="./Images/code.png"></img>
+
+  </div>
+  <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+    <p>JavaScript( NodeJs/ReactJs/jquery)</p></br>
+    <p>Python</p></br>
+    <p>C/C++</p></br>
+    <p>SQL/Mongodb</p></br>
+    <p>Ms-Excel</p></br>
+    <p>Data Structures and algorithms</p></br>
+  </div>
+</div>
+
+<hr>
+
+<!-- project page html, work on javascript -->
+
+<div id="project" class="third container-fluid text-center">
+  <h1><img src="./Images/work.jpeg" style="float:center; width:60px;">Work & Projects</h>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-sm-4 ">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1>Deloitte</h1>
+        </div>
+        <div class="panel-body">
+          <p>Worked under the Director</p>
+          <p>Tested Client's IT system</p>
+          <p>Did follow-up meetings with the Client</p>
+        </div>
+        <div class="panel-footer">
+          <h3>RA Intern</h3>
+          <h4> Jan 2018-april 2018</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-4 col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1>Stock Prediction</h1>
+        </div>
+        <div class="panel-body">
+          <p>Implement linear regression</p>
+          <p>Project Mentor: Mr Ashwini kumar</p>
+            <p>Languages: Python,NodeJs</p>
+        </div>
+        <div class="panel-footer">
+          <h3>Academic Project</h3>
+          <h4>Sept 2017-June 2018</h4>
+        </div>
+      </div>
+    </div>
+   <div class="col-md-4 col-lg-4 col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1>DDA Flat</h1>
+        </div>
+        <div class="panel-body">
+           <p>Implemented Queue and hashing</p>
+            <p>Project Mentor: Mr Ashwini kumar</p>
+            <p>Languages used: C</p>
+        </div>
+        <div class="panel-footer">
+          <h3>Academic Project</h3>
+          <h4>Sept 2015-June 2015</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<div id="contact"  class="container-fluid text-center fourth">
+    <h1><img src="./Images/contact.png" style="float:center; width:60px;">Contact</h>
+</div>
+<div class="row">
+      <p style="font-size: 22px;" class="text-center"> If you are looking to hire full-time or part-time, get in touch.</p>
+      <div class="col-md-3 col-lg-3 col-sm-3 ">
+      <p><span class="glyphicon glyphicon-map-marker"></span> Delhi-NCR, India</p>
+      <p><span class="glyphicon glyphicon-phone"></span> Phone: +91-7055556544</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Email: diaman30@gmail.com</p>
+      </div>
+      <div class="col-md-9 col-lg-9 ol-sm-9  contactimg">
+      <a href="https://www.linkedin.com/in/aman-dwivedi-3003/" target="_blank"><img src="./Images/linkedin.png"></a>
+      <a href="https://medium.com/@aman.dwivedi.30.03" target="_blank"><img src="./Images/mediumlogo.png"></a>
+      <a href="https://github.com/opnsrc123" target="_blank"><img src="./Images/GitHub.png"></a>
+      <a href="https://www.instagram.com/_sinaysi_/" target="_blank"><img src="./Images/instagram.png"></a>
+      <a href="https://www.hackerrank.com/diaman30?hr_r=1" target="_blank"><img src="./Images/hackerank.png"></a>
+      <a href="https://angel.co/aman-dwivedi-5?al_content=view+your+profile&al_source=transaction_feed%2Fnetwork_sidebar" target="_blank"><img src="./Images/angel.png"></a>
+      <a href="https://www.spotify.com/redmouse_3030" target="_blank"><img src="./Images/spotify.png"></a>
+      <a href="https://www.kaggle.com/opnsrc123" target="_blank"><img src="./Images/kaggle.png"></a>
+      </div>
+    </div>
+  </br>
+</div>
+</body>
+</html>
